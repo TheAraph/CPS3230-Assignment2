@@ -1,0 +1,10 @@
+digraph _logic_badLoginsProperty {
+rankdir=LR;
+node [shape = circle]; Login Logout;
+node [shape = point]; _s_s;
+_s_s -> Logout;
+Logout -> Login [ label = "(1) goodLogin\\\\badLogins = 0 ; System . out . println ( \" You are now logged in. Bad logins:  \" + badLogins ) ; "];
+Logout -> Logout [ label = "(2) badLogin\\\\badLogins ++ ; System . out . println ( \" Invalid login. You now have  \" + badLogins + \" bad logins. \" ) ; "];
+Login -> Login [ label = "(1) AlertPage\\isAlertPage == true \\; System . out . println ( \" You are logged in as you are on the Alert Page) \" ) ; "];
+Login -> Logout [ label = "(2) LoggedOut\\LogOut == true \\; System . out . println ( \" You have just logged out) \" ) ; "];
+}

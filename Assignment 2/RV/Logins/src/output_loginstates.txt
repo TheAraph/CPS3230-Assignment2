@@ -1,0 +1,153 @@
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 1bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 1bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 2bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 3bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 4bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 5bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 6bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 7bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 8bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 1bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+You are now logged in. Bad logins: 0
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.goodLogin() TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You are logged in as you are on the Alert Page)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setInAlertPage(boolean) TO STATE::> Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Login
+You have just logged out)
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.Account.setLoggedOut(boolean) TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 1bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 2bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout
+Invalid login. You now have 3bad logins.
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.badLogin() TO STATE::> Logout
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>Logout

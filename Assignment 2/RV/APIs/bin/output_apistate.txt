@@ -1,0 +1,3 @@
+[badLoginsProperty]AUTOMATON::> badLoginsProperty() STATE::>CheckAlerts
+Check is done and is INCORRECT
+[badLoginsProperty]MOVED ON METHODCALL: void main.runner.postDoesntWork() TO STATE::> CheckIncorrect

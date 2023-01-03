@@ -1,0 +1,17 @@
+STATES:
+
+- Login
+- Logout *starting
+
+VARIABLES:
+
+- LoginPage (bool)
+- AlertsPage (bool)
+- LogOut (bool)
+- ValidLogin (bool)
+
+TRANSITIONS:
+
+- Logout -> Login / validlogin / AlertsPage = true
+- Login -> Logout / manualLogout / LogOut = true
+- Logout -> Logout / invalidLogin / LoginPage = true

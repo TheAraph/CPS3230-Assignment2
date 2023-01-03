@@ -1,0 +1,12 @@
+digraph _logic_apiStatesProperty {
+rankdir=LR;
+node [shape = circle]; NewAlert LogEvents PurgeAlert Admin;
+node [shape = point]; _s_s;
+_s_s -> Admin;
+NewAlert -> Admin [ label = "(1) POSTResponse\\AlertCreated == true \\; System . out . println ( \" New Alert Created \" ) ; "];
+Admin -> NewAlert [ label = "(1) POSTRequest\\AlertCreated == false \\NumAlerts ++ ; System . out . println ( \" Creating New Alert \" ) ; "];
+Admin -> LogEvents [ label = "(2) CheckLogs\\LogsChecked == false \\; System . out . println ( \" Checking Alert Logs \" ) ; "];
+Admin -> PurgeAlert [ label = "(3) DELETERequest\\DeleteCreated == false \\; System . out . println ( \" Creating Delete Request \" ) ; "];
+LogEvents -> Admin [ label = "(1) LogsAreChecked\\LogsChecked == true \\; System . out . println ( \" Alert Logs Checked \" ) ; "];
+LogEvents -> Admin [ label = "(2) DELETEResponse\\DeleteCreated == true \\; System . out . println ( \" Successful Delete \" ) ; "];
+}

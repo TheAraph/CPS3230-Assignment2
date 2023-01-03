@@ -1,0 +1,8 @@
+digraph _logic_badLoginsProperty {
+rankdir=LR;
+node [shape = circle]; CheckCorrect CheckIncorrect CheckAlerts;
+node [shape = point]; _s_s;
+_s_s -> CheckAlerts;
+CheckAlerts -> CheckCorrect [ label = "(1) postWorks\\\\; System . out . println ( \" Check is done and is correct \" ) ; "];
+CheckAlerts -> CheckIncorrect [ label = "(2) postDoesntWork\\\\; System . out . println ( \" Check is done and is INCORRECT \" ) ; "];
+}

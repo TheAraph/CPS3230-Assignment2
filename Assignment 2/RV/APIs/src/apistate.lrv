@@ -1,0 +1,26 @@
+GLOBAL { 
+	VARIABLES {
+	}
+	
+	EVENTS{
+		postWorks() = {*.postWorks()}
+		postDoesntWork() = {*.postDoesntWork()}
+	}
+	
+	PROPERTY badLoginsProperty{
+		STATES{
+			NORMAL{
+				CheckCorrect
+				CheckIncorrect
+			}
+			STARTING{
+				CheckAlerts
+			}
+		}
+		
+		TRANSITIONS{
+			CheckAlerts -> CheckCorrect [postWorks\\;System.out.println("Check is done and is correct");]
+			CheckAlerts -> CheckIncorrect [postDoesntWork\\;System.out.println("Check is done and is INCORRECT");]
+			}
+	}
+}
